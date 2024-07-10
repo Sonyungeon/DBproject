@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>밀양시 문화축제 데이터베이스</h1>
+		
+		<h2>데이터 조회</h2>
+		<h3><a href='./display_m1.php'> 축제 정보</a></h3>
+		<h3><a href='./display_m2.php'> 주관기관 정보</a></h3>
+		<h3><a href='./display_m3.php'> 개최장소</a></h3>
+		<h3><a href='./join1_3.php'> 축제 장소 조회</a></h3>
+
+
+
+		<h3>데이터를 CSV 파일에서 읽어오기</h3>
+		<form action= 'insert.php' method='post'>
+			<div class= 'input-group'>
+				<div class= 'custom-file'>
+					<input type='file' class='custom-file-input' id='customFileInput'>
+					<label class='custom-file-label' for='customFileInput'>
+							Selected. </label>
+				</div>
+				
+				<div class='input-group-append'>
+					<input type='submit' name='submit' value='Insert' class='btn btn-primary'>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
+</html>
